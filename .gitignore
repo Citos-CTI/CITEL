@@ -13,3 +13,4 @@ db.sqlite
 /productiveconfigs/sip.conf
 __init__.py
 __pycache__
+Serverconfigs
