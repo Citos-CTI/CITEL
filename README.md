@@ -27,4 +27,13 @@ python3 main.py
 finished - (not longer in development)
 
 Login screen:
-![alt text](https://github.com/Citos-CTI/CITEL/blob/master/readme_imgs/login.PNG)
+![img of login screen](https://github.com/Citos-CTI/CITEL/blob/master/readme_imgs/login.png)
+
+Server configurations:
+![img of server config screen](https://github.com/Citos-CTI/CITEL/blob/master/readme_imgs/server.png)
+
+Telephone configurations:
+![img of phone config screen](https://github.com/Citos-CTI/CITEL/blob/master/readme_imgs/telefon.png)
+
+Telephone administration:
+![img of phone administration](https://github.com/Citos-CTI/CITEL/blob/master/readme_imgs/phones.png)
