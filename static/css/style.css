@@ -1,0 +1,102 @@
+.fas:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.fas-no-hover:hover{
+    color:red;
+}
+
+.coolInp{
+    text-align:center;
+    width: 100%;
+    float:left;
+    color: darkgrey;
+    border: none;
+    background: transparent;
+}
+.coolInp:focus {
+    outline: none;
+}
+.coolInp:hover{
+    color: black;
+}
+
+.list-item-mac {
+    font-family: monospace;
+    cursor: pointer;
+}
+.nav-link-active-white {
+    color:white;
+}
+.nav-link-active-white:hover {
+    color:white;
+}
+.page-item:active {
+    color:white;
+    background-color: #2181F7;
+}
+
+.popup:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color:#DFDFDF;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #FFFFFF;
+    color: #555;
+    text-align: center;
+    border-width: 1px;
+    border-color: #DFDFDF;
+    border-style: solid;
+    border-radius: 2px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -150px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #DFDFDF transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+}
+
+.popup-menu-item {
+    padding: 5px;
+    color:#6c757d;
+}
+.popup-menu-item:hover {
+    color:black;
+}
+
+
+

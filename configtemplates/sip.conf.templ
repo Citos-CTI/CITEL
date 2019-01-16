@@ -1,0 +1,36 @@
+[general]
+srvlookup=no
+port={{ sip_trunk_port }}
+language=de
+register=>{{ sip_trunk_login_string }}
+allowguest=no
+alwaysauthreject=yes
+context=sip_incoming
+disallow=all
+allow=g722
+allow=alawex
+allow=ulaw
+
+[{{ sip_trunk_name }}]
+type=peer
+username={{ sip_trunk_login_name }}
+fromuser={{ sip_trunk_login_name }}
+secret={{ sip_trunk_login_password }}
+host={{ sip_trunk_host }}
+fromdomain={{ sip_trunk_host }}
+insecure=invite,port
+caninvite=no
+canreinvite=no
+nat=no
+
+{% for user in users %}
+[{{ user[0] }}]
+secret={{ user[1] }}
+callerid={{ user[2] }}
+type=friend
+host=dynamic
+qualify=yes
+canreinvite=no
+context=default
+
+{% endfor %}

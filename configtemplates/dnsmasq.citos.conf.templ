@@ -1,0 +1,12 @@
+no-resolv
+interface={{ interface }}
+no-hosts
+log-dhcp
+
+dhcp-option=42,{{ ntp_server }}                                                 #NTP
+
+dhcp-range={{ range[0] }},{{ range[1] }},2m                                     #nicht zugeordnete Telefone (2m is minimum time)
+
+{% for item in items %}
+dhcp-host={{ item[0] }},{{ item[1] }},12h          #{{ item[2] }}
+{% endfor %}

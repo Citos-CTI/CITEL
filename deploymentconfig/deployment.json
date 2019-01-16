@@ -1,0 +1,153 @@
+{
+  "__comment__": "art: 1 = Textfield 2=Textfield(nur Zahlen) 3=Auswahlfeld 4=Checkboxfield 5=textarea",
+  "categories": [
+    "SIP-Server",
+    "LDAP/Adressen",
+    "Zeit/Ort",
+    "Deployment"
+  ],
+  "num_categories": 4,
+  "settings": {
+    "date-time-format": {
+      "art": 3,
+      "category": 2,
+      "json": "date-time-format",
+      "position": 0,
+      "possible": [
+        "Europ\u00e4isch",
+        "Amerikanisch"
+      ],
+      "text": "Datums-/Zeitformat",
+      "value": "Europ\u00e4isch"
+    },
+    "daylight-saving": {
+      "art": 4,
+      "category": 2,
+      "json": "daylight-saving",
+      "position": 1,
+      "text": "Sommerzeit wird verwendet",
+      "value": "false"
+    },
+    "language": {
+      "art": 3,
+      "category": 2,
+      "json": "language",
+      "position": 4,
+      "possible": [
+        "Deutsch",
+        "Englisch"
+      ],
+      "text": "Sprache",
+      "value": "Deutsch"
+    },
+    "ldap-authentication": {
+      "art": 1,
+      "category": 1,
+      "json": "ldap-authentication",
+      "position": 3,
+      "text": "LDAP Authentifizierung",
+      "value": "anonymous"
+    },
+    "deployment-password": {
+      "art": 1,
+      "category": 3,
+      "json": "deployment-password",
+      "position": 0,
+      "text": "Telefon Passwort",
+      "value": "factory-password"
+    },
+    "ldap-proxy-enabled": {
+      "art": 4,
+      "category": 1,
+      "json": "ldap-proxy-enabled",
+      "position": 4,
+      "text": "LDAP Proxy",
+      "value": "true"
+    },
+    "ldap-server-address": {
+      "art": 1,
+      "category": 1,
+      "json": "ldap-server-address",
+      "position": 0,
+      "text": "LDAP Server Adresse",
+      "value": "100.88.0.254"
+    },
+    "ldap-server-port": {
+      "art": 2,
+      "category": 1,
+      "json": "ldap-server-port",
+      "position": 1,
+      "text": "LDAP Server Port",
+      "value": "389"
+    },
+    "ldap-template": {
+      "art": 5,
+      "category": 1,
+      "json": "ldap-template",
+      "position": 5,
+      "text": "LDAP Template",
+      "value": "dc..."
+    },
+    "ldap-transport": {
+      "art": 3,
+      "category": 1,
+      "json": "ldap-transport",
+      "position": 2,
+      "possible": [
+        "tcp",
+        "udp"
+      ],
+      "text": "LDAP Transport",
+      "value": "tcp"
+    },
+    "ntp-server-address": {
+      "art": 1,
+      "category": 2,
+      "json": "ntp-server-address",
+      "position": 2,
+      "text": "NTP Server Adresse",
+      "value": "100.88.0.254"
+    },
+    "sip-server-address": {
+      "art": 1,
+      "category": 0,
+      "json": "sip-server-address",
+      "position": 0,
+      "text": "SIP Server Adresse",
+      "value": "100.88.0.254"
+    },
+    "sip-server-port": {
+      "art": 2,
+      "category": 0,
+      "json": "sip-server-port",
+      "position": 1,
+      "text": "SIP Server Port",
+      "value": "5060"
+    },
+    "sip-transport": {
+      "art": 3,
+      "category": 0,
+      "json": "sip-transport",
+      "position": 2,
+      "possible": [
+        "tcp",
+        "udp"
+      ],
+      "text": "SIP Transport",
+      "value": "udp"
+    },
+    "timezone": {
+      "art": 3,
+      "category": 2,
+      "json": "timezone",
+      "position": 3,
+      "possible": [
+        "MEZ",
+        "GMT",
+        "PST"
+      ],
+      "text": "Zeitzone",
+      "value": "MEZ"
+    }
+  }
+}

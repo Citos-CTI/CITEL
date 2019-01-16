@@ -1,0 +1,12 @@
+bcrypt
+flask
+pyopenssl
+cryptography
+passlib
+flask_httpauth
+flask_sqlalchemy
+requests
+eventlet
+asterisk-ami
+psutil
+jinja2

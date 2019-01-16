@@ -1,0 +1,12 @@
+[general]
+enabled = {{ enabled }}
+port = {{ port }}
+bindaddr = 0.0.0.0
+{% for user in users %}
+[{{ user[0] }}]
+secret={{ user[1] }}
+permit={{ user[2] }}
+read=all
+write=all
+
+{% endfor %}

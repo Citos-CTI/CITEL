@@ -1,0 +1,11 @@
+{
+  "100.88.0.2": {
+    "callerid": "johannes <55>",
+    "ip": "100.88.0.55",
+    "mac": "00:15:65:f4:4f:7d",
+    "pc_ip": "80.156.210.12",
+    "secret": "9tFVM1sdAfwydxsdf9wEFBn9je9sdfWJECCss",
+    "user": "55",
+    "confighash": "fc2ab2554c9ac745cc91e9391d214047881c744e94d939c0ef8de67ac4d2da6ca6622fb57f2abc0e72004b959a7bfe0c7b8de90eda8d075028e211868ec22a80"
+  }
+}

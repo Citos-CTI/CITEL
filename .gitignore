@@ -1,0 +1,16 @@
+/__pycache__
+/.idea
+/.vscode
+users.db
+db.sqlite
+/venv
+/pyscripts/__pycache__
+/otherProjectsToIntegrate
+/static/webfonts
+/pyscripts/logscripts/__pycache__
+/productiveconfigs/dnsmasq.citel.conf
+/productiveconfigs/manager.conf
+/productiveconfigs/sip.conf
+__init__.py
+/status
+__pycache__

@@ -1,0 +1,127 @@
+{
+  "__comment__": "art: 1 = Textfield 2=Textfield(nur Zahlen) 3=Auswahlfeld 4=Checkboxfield 5=textarea",
+  "categories": [
+    "SIP-Trunk",
+    "Web Client",
+    "Asterisk Manager"
+  ],
+  "num_categories": 3,
+  "settings": {
+    "asterisk-manager-enabled": {
+      "art": 4,
+      "category": 2,
+      "json": "asterisk-manager-enabled",
+      "position": 0,
+      "text": "AMI Aktiv",
+      "value": "true"
+    },
+    "asterisk-manager-password": {
+      "art": 1,
+      "category": 2,
+      "json": "asterisk-manager-password",
+      "position": 3,
+      "text": "AMI Passwort",
+      "value": "amitel-pw"
+    },
+    "asterisk-manager-permit-ip": {
+      "art": 1,
+      "category": 2,
+      "json": "asterisk-manager-permit-ip",
+      "position": 4,
+      "text": "AMI erlaubte IP's",
+      "value": "0.0.0.0/0.0.0.0"
+    },
+    "asterisk-manager-port": {
+      "art": 2,
+      "category": 2,
+      "json": "asterisk-manager-port",
+      "position": 1,
+      "text": "AMI Port",
+      "value": "5038"
+    },
+    "asterisk-manager-username": {
+      "art": 1,
+      "category": 2,
+      "json": "asterisk-manager-username",
+      "position": 2,
+      "text": "AMI Benutzer",
+      "value": "amitel"
+    },
+    "sip-trunk-host": {
+      "art": 1,
+      "category": 0,
+      "json": "sip-trunk-host",
+      "position": 1,
+      "text": "Host",
+      "value": "sip.easybell.de"
+    },
+    "sip-trunk-login-name": {
+      "art": 1,
+      "category": 0,
+      "json": "sip-trunk-login-name",
+      "position": 4,
+      "text": "Benutzername",
+      "value": "username"
+    },
+    "sip-trunk-login-password": {
+      "art": 1,
+      "category": 0,
+      "json": "sip-trunk-login-password",
+      "position": 5,
+      "text": "Passwort",
+      "value": "password"
+    },
+    "sip-trunk-login-string": {
+      "art": 1,
+      "category": 0,
+      "json": "sip-trunk-login-string",
+      "position": 3,
+      "text": "Login String",
+      "value": "find string in the configs for your trunk provider"
+    },
+    "sip-trunk-name": {
+      "art": 1,
+      "category": 0,
+      "json": "sip-trunk-name",
+      "position": 0,
+      "text": "Trunk Name",
+      "value": "easybell"
+    },
+    "sip-trunk-port": {
+      "art": 2,
+      "category": 0,
+      "json": "sip-trunk-port",
+      "position": 2,
+      "text": "Port",
+      "value": "5060"
+    },
+    "web-cli-plugin": {
+      "art": 3,
+      "category": 1,
+      "json": "web-cli-plugin",
+      "position": 1,
+      "possible": [
+        "LDAP",
+        "Test"
+      ],
+      "text": "Plugin",
+      "value": "LDAP"
+    },
+    "web-cli-plugin-options": {
+      "art": 1,
+      "category": 1,
+      "json": "web-cli-plugin-options",
+      "position": 2,
+      "text": "Plugin Parameter",
+      "value": "citos.de;389;citos.de;cn,sn;uid,cn,mail,db,telephoneNumber,o"
+    },
+    "web-cli-port": {
+      "art": 2,
+      "category": 1,
+      "json": "web-cli-port",
+      "position": 0,
+      "text": "Port",
+      "value": "80"
+    }
+  }
+}
