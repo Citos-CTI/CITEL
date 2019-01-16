@@ -1,0 +1,68 @@
+{
+  "timestamp": 1547632811.3856556,
+  "asterisk-systemstatus": {
+    "status": 0,
+    "running-asterisk-version": "-",
+    "running-manager-version": "-",
+    "act-current-calls": "-",
+    "last-core-reload": "-",
+    "last-core-restart": "-"
+  },
+  "system-status": {
+    "cpu-percent": 3.3,
+    "ram-total": 17117945856,
+    "ram-free": 7025037312,
+    "ram-percent": 59.0,
+    "hdd-total": 499513290752,
+    "hdd-free": 330205106176,
+    "hdd-percent": 33.9,
+    "status": 1
+  },
+  "trunk-status": {
+    "sip.easybell.de-004976333204008": {
+      "channels": 6,
+      "trunkname": "sip.easybell.de",
+      "status": 1,
+      "user": "004976333204008",
+      "connected_since": 1527225697.0
+    }
+  },
+  "asterisk-user-status": {
+    "0": {
+      "status": "0",
+      "hint": "SIP/engler&Custom:0"
+    },
+    "703": {
+      "status": "0",
+      "hint": "park:703@parkedcalls"
+    },
+    "3": {
+      "status": "4",
+      "hint": "SIP/user1&Custom:3"
+    },
+    "4": {
+      "status": "4",
+      "hint": "SIP/user2&Custom:4"
+    },
+    "6": {
+      "status": "4",
+      "hint": "SIP/user4&Custom:6"
+    },
+    "702": {
+      "status": "0",
+      "hint": "park:702@parkedcalls"
+    },
+    "701": {
+      "status": "0",
+      "hint": "park:701@parkedcalls"
+    },
+    "5": {
+      "status": "4",
+      "hint": "SIP/user3&Custom:5"
+    },
+    "1": {
+      "status": "4",
+      "hint": "SIP/mac&Custom:1"
+    }
+  }
+}

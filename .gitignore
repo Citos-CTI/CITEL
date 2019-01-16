@@ -12,5 +12,4 @@ db.sqlite
 /productiveconfigs/manager.conf
 /productiveconfigs/sip.conf
 __init__.py
-/status
 __pycache__
